@@ -1,5 +1,32 @@
-# Multi-sport activity tracking app
-A opensource multi-sport tracker app using the movesense sensor
+# Multi-sport tracing app 
+A open source multi-sport tracing app uses to trace the movement of any board, providing the user with live feedback on inportant performance parameters. It can be uses by coaches or 
+## HOW
+The app is open source and free and connces to commercial off-the-shelf motion sport tracking sensors (such as movesense).
+This solves a couple of issues most such sensor had in the past.
+- No propriotory sensor development costs
+- Increased user numbers, due to the use for multiple board sports
+- No business case that needs to make a short term ROI
+- Programmer passionate about difference board sports can develop different versions of the app, or modes within the app.
+The app should be able to measure:
+- Board speed
+- Trick type
+- Jump height
+- Air time
+- Jump distance
+- Foot timing and more...
 
-## Movesense documentation
+## SPECIAL REQUIREMENTS
+- Code needs to be as modular as possible, so that it can be shared between the differnt sports
+- Coded mostly in Flutter to enable deplayment on various operating systems.
+- Use AI to continuously learn and get better
+- Give useful feedback
+
+## BUSINESS MODEL
+Users buy the sensor directly from the supplier (movesense.com). Find solutions enabling the app to always stay free, while generating enough funds to support continous improvement.
+- Sport brands sponsor certain spots
+- Sell clips to fix the sensor to the boards.
+- Show classic adds
+- Earn money via the coaching platform
+
+## MOVESENSE DOCUMENTATION
 https://www.movesense.com/docs/
