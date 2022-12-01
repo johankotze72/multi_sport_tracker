@@ -1,5 +1,5 @@
 # Multi-sport tracing app 
-A open source multi-sport tracing app uses to trace the movement of any board, providing the user with live feedback on inportant performance parameters. It can be uses by coaches or boardes.
+A open source multi-sport tracing app uses IMU-based sensors to trace the movement of any board, providing the user with live feedback on inportant performance parameters. It can be uses by coaches or boardes.
 ## HOW
 The app is open source and free and connces to commercial off-the-shelf motion sport tracking sensors (such as movesense).
 This solves a couple of issues most such sensor had in the past.
@@ -22,13 +22,17 @@ The app should be able to measure:
 - Give useful feedback
 
 ## BUSINESS MODEL
-Users buy the sensor directly from the supplier (movesense.com). Find solutions enabling the app to always stay free, while generating enough funds to support continous improvement.
+Users buy sensors directly from suppliers. Find solutions enabling the app to always stay free, while generating enough funds to support continous improvement.
 - Sport brands sponsor certain spots
 - Sell clips to fix the sensor to the boards.
 - Show classic adds
 - Earn money via the coaching platform
 
-## MOVESENSE SENSOR
+## SENSORS
+We hope to support as many sensors as possible and as starting with those providing easy APIs and SDKs.
+
+### Movesense
+Movesense is an established sports sensor with a well-documented API and integrations.
 ![Move sense sensor](https://www.movesense.com/wp-content/uploads/2017/05/movesense-front1000px-296x300.png)
    
 https://www.movesense.com/docs/
